@@ -28,7 +28,9 @@ Follow the below step-by-step guide to configure a Basic Firewall Rule to allow 
 
 In most of the cases the firewall is pre-installed. The output of the above command shows the various commands associated with UFW if it’s already installed.
 
- ![Picture1](/images/Picture1.jpg)
+ <p align="center">
+   <img src="images/Picture1.jpg" alt="UFW Enabled" style="max-width: 100%; height: auto;">
+ </p>
 
 2. If the firewall isn't pre-installed, you can install it using the following commands and give sudo password when prompted:
 
@@ -36,7 +38,9 @@ In most of the cases the firewall is pre-installed. The output of the above comm
         
         sudo apt-get install ufw
 
- ![Picture2](/images/Picture2.jpg)
+ <p align="center">
+   <img src="images/Picture2.jpg" alt="UFW Enabled" style="max-width: 100%; height: auto;">
+ </p>
 
 ### Step 2. Enable UFW
 
@@ -44,7 +48,10 @@ The second step after the installation of the Firewall is to enable it via the f
 
         sudo ufw enable
 
- ![Picture3](/images/Picture3.png)
+ <p align="center">
+   <img src="images/Picture3.png" alt="UFW Enabled" style="max-width: 100%; height: auto;">
+ </p>
+
 
 ### Step 3. Create a new inbound rule
 
@@ -52,7 +59,9 @@ The second step after the installation of the Firewall is to enable it via the f
 
         sudo ufw allow http 
     
- ![Picture4](/images/Picture4.jpg)
+ <p align="center">
+   <img src="images/Picture4.jpg" alt="UFW Enabled" style="max-width: 100%; height: auto;">
+ </p> 
 
 2. Alternatively, you can specify the port number directly via the command:
 
@@ -70,7 +79,9 @@ You can verify the UFW rules that are currently in place and display the status 
 
         sudo ufw status verbose
 
- ![Picture5](/images/Picture5.png)
+ <p align="center">
+   <img src="images/Picture5.png" alt="UFW Enabled" style="max-width: 100%; height: auto;">
+ </p>
 
 ## Conclusion
 
