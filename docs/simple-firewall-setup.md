@@ -44,7 +44,7 @@ The second step after the installation of the Firewall is to enable it via the f
 
         sudo ufw enable
 
- ![Picture3](/images)
+ ![Picture3](/images/Picture3.png)
 
 ### Step 3. Create a new inbound rule
 
@@ -52,7 +52,7 @@ The second step after the installation of the Firewall is to enable it via the f
 
         sudo ufw allow http 
     
- ![Picture4](/images/Picture3.jpg)
+ ![Picture4](/images/Picture4.jpg)
 
 2. Alternatively, you can specify the port number directly via the command:
 
@@ -70,7 +70,7 @@ You can verify the UFW rules that are currently in place and display the status 
 
         sudo ufw status verbose
 
- ![Picture5](/images/Picture5.jpg)
+ ![Picture5](/images/Picture5.png)
 
 ## Conclusion
 
