@@ -12,10 +12,6 @@ The following repository contains a step-by-step guide on **"How to Configure a 
 
 Ubuntu 20.04, Terminal, UFW  
 
-## View full guide: 
+## [View full guide](docs/simple-firewall-setup.md](docs/simple-firewall-setup.md)
 
-[docs/simple-firewall-setup.md](docs/simple-firewall-setup.md)
-
-## View Live Documentation:
-
-[https://Khanum49.github.io/firewall-configuration-ufw-guide/](https://khanum49.github.io/linux-firewall-guide/)
+## [View Live Documentation](https://Khanum49.github.io/firewall-configuration-ufw-guide/](https://khanum49.github.io/linux-firewall-guide/)
